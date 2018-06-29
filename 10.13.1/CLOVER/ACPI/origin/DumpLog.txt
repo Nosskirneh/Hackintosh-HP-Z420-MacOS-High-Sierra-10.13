@@ -1,0 +1,84 @@
+7:414  3:137  Found UEFI Acpi 2.0 RSDP at DB796000
+7:414  0:000  Saving ACPI tables from RSDP DB796000 to EFI\CLOVER\ACPI\origin ...
+7:414  0:000   DB796000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:468  0:053    (Xsdt: DB796088, Rsdt: DB796028)
+7:468  0:000    DB796088: 'XSDT', 'SLIC-WKS', Rev: 1, Len: 148 -> XSDT.aml
+7:499  0:031    DB796028: 'RSDT', 'SLIC-WKS', Rev: 1, Len: 92 -> RSDT.aml
+7:533  0:034    Tables in Xsdt: 14
+7:533  0:000    0. DB79DCA0: 'FACP', 'SLIC-WKS', Rev: 5, Len: 268 -> FACP.aml
+7:565  0:031        (Dsdt: DB7961B0, Facs: DBA12080, XDsdt: DB7961B0, XFacs: 0)
+7:565  0:000        DB7961B0: 'DSDT', 'SLIC-WKS', Rev: 2, Len: 31465 -> DSDT.aml
+7:600  0:035        DBA12080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+7:634  0:033    1. DB79DDB0: 'APIC', 'SLIC-WKS', Rev: 3, Len: 144 -> APIC.aml
+7:667  0:032    2. DB79DE40: 'FPDT', 'SLIC-WKS', Rev: 1, Len: 68 -> FPDT.aml
+7:699  0:032    3. DB79DE88: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+7:731  0:031    4. DB79DF30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60 -> MCFG.aml
+7:763  0:031    5. DB79DF70: 'HPET', 'SLIC-WKS', Rev: 1, Len: 56 -> HPET.aml
+7:794  0:031    6. DB79DFA8: 'UEFI', 'RstScuO', Rev: 1, Len: 298 -> UEFI.aml
+7:830  0:035    7. DB79E0D8: 'SSDT', 'WMI', Rev: 1, Len: 22803 -> SSDT-0-WMI.aml
+7:880  0:050    8. DB7A39F0: 'SLIC', 'SLIC-WKS', Rev: 1, Len: 374 -> SLIC.aml
+7:912  0:031    9. DB7A3B68: 'SSDT', 'CpuDef', Rev: 2, Len: 10449 -> SSDT-1-CpuDef.aml
+7:954  0:042    10. DB7A6440: 'SSDT', 'CpuPm', Rev: 2, Len: 798336 -> SSDT-2-CpuPm.aml
+8:379  0:424    11. DB8692C0: 'IFEU', 'SLIC-WKS', Rev: 1, Len: 66 -> IFEU.aml
+8:419  0:040    12. DB869308: 'UEFI', 'RstScuV', Rev: 1, Len: 92 -> UEFI.aml
+8:455  0:035    13. DB869368: 'DMAR', 'OEMDMAR', Rev: 1, Len: 168 -> DMAR.aml
+8:496  0:041    Tables in Rsdt: 14
+8:496  0:000    0. DB796128: 'FACP', 'SLIC-WKS', Rev: 2, Len: 132 -> RSDT-FACP.aml
+8:532  0:036        (Dsdt: DB7961B0, Facs: DBA12040)
+8:532  0:000        DB7961B0: 'DSDT', 'SLIC-WKS', Rev: 2, Len: 31465
+8:533  0:000        DBA12040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+8:566  0:032    1. DB79DDB0: 'APIC', 'SLIC-WKS', Rev: 3, Len: 144
+8:566  0:000    2. DB79DE40: 'FPDT', 'SLIC-WKS', Rev: 1, Len: 68
+8:566  0:000    3. DB79DE88: 'ASF!', ' HCG', Rev: 32, Len: 165
+8:566  0:000    4. DB79DF30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+8:566  0:000    5. DB79DF70: 'HPET', 'SLIC-WKS', Rev: 1, Len: 56
+8:566  0:000    6. DB79DFA8: 'UEFI', 'RstScuO', Rev: 1, Len: 298
+8:566  0:000    7. DB79E0D8: 'SSDT', 'WMI', Rev: 1, Len: 22803
+8:566  0:000    8. DB7A39F0: 'SLIC', 'SLIC-WKS', Rev: 1, Len: 374
+8:566  0:000    9. DB7A3B68: 'SSDT', 'CpuDef', Rev: 2, Len: 10449
+8:566  0:000    10. DB7A6440: 'SSDT', 'CpuPm', Rev: 2, Len: 798336
+8:566  0:000    11. DB8692C0: 'IFEU', 'SLIC-WKS', Rev: 1, Len: 66
+8:566  0:000    12. DB869308: 'UEFI', 'RstScuV', Rev: 1, Len: 92
+8:566  0:000    13. DB869368: 'DMAR', 'OEMDMAR', Rev: 1, Len: 168
+8:566  0:000  Found UEFI Acpi 1.0 RSDP at DB796000
+8:566  0:000  Printing ACPI tables from RSDP DB796000 ...
+8:566  0:000   DB796000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+8:566  0:000    (Xsdt: DB796088, Rsdt: DB796028)
+8:566  0:000    DB796088: 'XSDT', 'SLIC-WKS', Rev: 1, Len: 148
+8:566  0:000    DB796028: 'RSDT', 'SLIC-WKS', Rev: 1, Len: 92
+8:566  0:000    Tables in Xsdt: 14
+8:566  0:000    0. DB79DCA0: 'FACP', 'SLIC-WKS', Rev: 5, Len: 268
+8:566  0:000        (Dsdt: DB7961B0, Facs: DBA12080, XDsdt: DB7961B0, XFacs: 0)
+8:566  0:000        DB7961B0: 'DSDT', 'SLIC-WKS', Rev: 2, Len: 31465
+8:566  0:000        DBA12080: 'FACS', Ver: 2, Len: 64
+8:566  0:000    1. DB79DDB0: 'APIC', 'SLIC-WKS', Rev: 3, Len: 144
+8:566  0:000    2. DB79DE40: 'FPDT', 'SLIC-WKS', Rev: 1, Len: 68
+8:566  0:000    3. DB79DE88: 'ASF!', ' HCG', Rev: 32, Len: 165
+8:566  0:000    4. DB79DF30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+8:566  0:000    5. DB79DF70: 'HPET', 'SLIC-WKS', Rev: 1, Len: 56
+8:566  0:000    6. DB79DFA8: 'UEFI', 'RstScuO', Rev: 1, Len: 298
+8:566  0:000    7. DB79E0D8: 'SSDT', 'WMI', Rev: 1, Len: 22803
+8:566  0:000    8. DB7A39F0: 'SLIC', 'SLIC-WKS', Rev: 1, Len: 374
+8:566  0:000    9. DB7A3B68: 'SSDT', 'CpuDef', Rev: 2, Len: 10449
+8:566  0:000    10. DB7A6440: 'SSDT', 'CpuPm', Rev: 2, Len: 798336
+8:566  0:000    11. DB8692C0: 'IFEU', 'SLIC-WKS', Rev: 1, Len: 66
+8:566  0:000    12. DB869308: 'UEFI', 'RstScuV', Rev: 1, Len: 92
+8:566  0:000    13. DB869368: 'DMAR', 'OEMDMAR', Rev: 1, Len: 168
+8:566  0:000    Tables in Rsdt: 14
+8:566  0:000    0. DB796128: 'FACP', 'SLIC-WKS', Rev: 2, Len: 132
+8:566  0:000        (Dsdt: DB7961B0, Facs: DBA12040)
+8:566  0:000        DB7961B0: 'DSDT', 'SLIC-WKS', Rev: 2, Len: 31465
+8:567  0:000        DBA12040: 'FACS', Ver: 0, Len: 64
+8:567  0:000    1. DB79DDB0: 'APIC', 'SLIC-WKS', Rev: 3, Len: 144
+8:567  0:000    2. DB79DE40: 'FPDT', 'SLIC-WKS', Rev: 1, Len: 68
+8:567  0:000    3. DB79DE88: 'ASF!', ' HCG', Rev: 32, Len: 165
+8:567  0:000    4. DB79DF30: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+8:567  0:000    5. DB79DF70: 'HPET', 'SLIC-WKS', Rev: 1, Len: 56
+8:567  0:000    6. DB79DFA8: 'UEFI', 'RstScuO', Rev: 1, Len: 298
+8:567  0:000    7. DB79E0D8: 'SSDT', 'WMI', Rev: 1, Len: 22803
+8:567  0:000    8. DB7A39F0: 'SLIC', 'SLIC-WKS', Rev: 1, Len: 374
+8:567  0:000    9. DB7A3B68: 'SSDT', 'CpuDef', Rev: 2, Len: 10449
+8:567  0:000    10. DB7A6440: 'SSDT', 'CpuPm', Rev: 2, Len: 798336
+8:567  0:000    11. DB8692C0: 'IFEU', 'SLIC-WKS', Rev: 1, Len: 66
+8:567  0:000    12. DB869308: 'UEFI', 'RstScuV', Rev: 1, Len: 92
+8:567  0:000    13. DB869368: 'DMAR', 'OEMDMAR', Rev: 1, Len: 168
